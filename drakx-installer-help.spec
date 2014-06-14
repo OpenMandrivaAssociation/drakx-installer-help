@@ -1,8 +1,8 @@
-%define destdir %{_docdir}/installer-help
+%define destdir %{_datadir}/doc/installer-help
 
 Name:           drakx-installer-help
 Version:        4.2
-Release:        1
+Release:        2
 Summary:        Installer help texts
 License:        CC-BY-SA
 Group:          Development/Other
