@@ -1,8 +1,9 @@
 %define destdir %{_datadir}/doc/installer-help
+%define	_no_default_doc_files 1
 
 Name:           drakx-installer-help
 Version:        4.2
-Release:        2
+Release:        3
 Summary:        Installer help texts
 License:        CC-BY-SA
 Group:          Development/Other
@@ -49,6 +50,7 @@ for file in $(find . -name "COPYING"); do
 done
 
 %files
+%docdir %{_defaultdocdir}/%{name}
 %doc README NEWS
 %doc README-*
 %doc COPYING
