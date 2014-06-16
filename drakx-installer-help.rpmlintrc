@@ -1,0 +1,1 @@
+addFilter('drakx-installer-help.noarch.*not-listed-as-documentation.*/usr/share/doc/installer-help')
