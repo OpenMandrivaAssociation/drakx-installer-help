@@ -11,6 +11,7 @@ URL:            https://abf.rosalinux.ru/moondrake/drakx-installer-help
 # git clone git@abf.rosalinux.ru:moondrake/drakx-installer-help.git
 # cd drakx-installer-help && make dist
 Source0:        %{name}-%{version}.tar.xz
+Source100:	%{name}.rpmlintrc
 BuildArch:      noarch
 
 %description
